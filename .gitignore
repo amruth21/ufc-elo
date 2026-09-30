@@ -1,0 +1,36 @@
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data and cache
+data/cache/
+*.csv
+*.json
+
+# Output files
+output/*.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+# Rendered videos (a GIF preview lives in docs/)
+output/*.mp4
+output/*.gif
+
+# Logs
+*.log
